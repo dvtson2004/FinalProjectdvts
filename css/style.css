@@ -1,42 +1,44 @@
-/* General Styles */
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+  background-color: #dedede;
 }
 
-header {
-  background-color: #333;
-  color: white;
+h1 {
   text-align: center;
-  padding: 1em 0;
+  font-family: Arial, sans-serif;
+  font-size: 32px;
 }
 
-main {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
+a {
+  color: #000;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
 }
 
-div.grid {
-  display: grid;
-  gap: 10px;
-}
-
-figure {
-  border: 2px solid black;
-  border-radius: 50%; /* Circular shape */
-  overflow: hidden; /* Hide overflowing content */
+p {
+  font-size: 25px;
+  font-family: Arial, sans-serif;
 }
 
 img {
-  max-width: 100%;
-  height: auto;
+  width: 100%;
 }
 
-figcaption {
+p {
   text-align: center;
-  margin-top: 10px;
+}
+
+div img {
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: auto;
+}
+
+div {
+  display: inline-block;
+  width: 24%;
+  margin: 5px;
+  padding: 2px;
 }
 
 /* Tablet View (772px) */
